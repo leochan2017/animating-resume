@@ -23,10 +23,11 @@
         enableHtml: false,
         fullStyle: [
           `/*
-* Inspired by http://strml.net/
-* 大家好，我是方方 
-* 二月了，好多公司都在招聘，你是不是也在准备简历呀。
-* 说做就做，我也来写一份简历！
+* 
+* Hello，我是Leo 
+* 无意中看到这么炫的简历
+* 于是我也来山寨一个~！
+* 感谢Samuel Reed大神
 */
 
 /* 首先给所有元素加上过渡效果 */
@@ -52,7 +53,7 @@ html {
 .token.punctuation{ color: yellow; }
 .token.function{ color: rgb(42,161,152); }
 
-/* 加点 3D 效果呗 */
+/* 加点 3D 效果吧 */
 html{
   -webkit-perspective: 1000px;
           perspective: 1000px;
@@ -117,34 +118,34 @@ html{
 }
 `],
         currentMarkdown: '',
-        fullMarkdown: `方应杭
+        fullMarkdown: `Leo
+----
+假装资深的前端开发攻城狮
+
+开源项目
 ----
 
-资深前端工程师，资深前端讲师，现在在 [饥人谷](http://jirengu.com) 教前端课程。
+* [leoJs - a tool for Javascript](https://github.com/leochan2017/leoJs)
+* [表单暂存JS库](https://github.com/leochan2017/jQueryZeptoLocalStorage)
+* [PC端公用弹窗UI组件](https://github.com/leochan2017/ywpc)
+* [微信选择上传图片接口二次封装](http://www.leojs.com/blog/?p=186)
+* [GULP版本号插件](http://www.leojs.com/blog/?p=132)
+* [基于zepto的移动端拖动排序](http://www.leojs.com/blog/?p=104)
+* [基于zepto的touch事件实现左右滑动](http://www.leojs.com/blog/?p=57)
 
-技能
+一些拙见
 ----
 
-* 前端开发
-* Rails 开发
-* Node.js 开发
-* 前端授课
+* [微信小程序开发指南](http://www.leojs.com/blog/?p=267)
+* [致敬jQuery](http://www.leojs.com/blog/?p=290)
+* [解决seajs项目在使用构建工具gulp 、grunt压缩后出现的问题](http://www.leojs.com/blog/?p=81)
+* [移动端Android和IOS调试开发方法](http://www.leojs.com/blog/?p=169)
 
-工作经历
+关于我
 ----
 
-1. [饥人谷](http://jirengu.com)
-2. 腾讯即时通讯平台部
-3. 阿里巴巴B2B部门
-4. 彩程知人项目组
-
-链接
-----
-
-* [GitHub](https://github.com/frankfang)
-* [我的文章](https://www.zhihu.com/people/zhihusucks/pins/posts)
-
-> 如果你喜欢这个效果，Fork [我的项目](https://github.com/jirengu-inc/animating-resume)，打造你自己的简历！
+* [GitHub](https://github.com/leochan2017)
+* [BLOG](http://www.leojs.com/blog/)
 
 `
       }
